@@ -5,7 +5,7 @@
 <ul>
 	{{#each people as |person|}}
 	<li {{action "showPerson" person}}>
-		{{person}}
+		{{person.name}} | {{person.age}}
 	</li>
 	{{/each}}
 </ul>
